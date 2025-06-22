@@ -30,8 +30,9 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Preview(showBackground = true)
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Greeting(name: String = "Sumit", modifier: Modifier = Modifier) {
     Text(
         text = "Hello $name!",
         modifier = modifier
